@@ -1,4 +1,4 @@
-export type Language = 'fr' | 'es' | 'de' | 'hi';
+export type Language = 'fr' | 'es' | 'de' | 'hi' | 'kn';
 
 export type Category = {
   id: string;
