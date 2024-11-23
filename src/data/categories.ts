@@ -18,6 +18,7 @@ export const categories: Category[] = [
               es: 'salida',
               de: 'Abflug',
               hi: 'प्रस्थान',
+              kn: 'nigamana',
             },
           },
           {
@@ -27,11 +28,12 @@ export const categories: Category[] = [
               es: 'llegada',
               de: 'Ankunft',
               hi: 'आगमन',
+              kn: 'aagama',
             },
           },
           {
             english: 'flight',
-            translations: { fr: 'vol', es: 'vuelo', de: 'Flug', hi: 'उड़ान' },
+            translations: { fr: 'vol', es: 'vuelo', de: 'Flug', hi: 'उड़ान', kn: 'vimaana' },
           },
           {
             english: 'boarding pass',
@@ -40,11 +42,12 @@ export const categories: Category[] = [
               es: 'tarjeta de embarque',
               de: 'Bordkarte',
               hi: 'बोर्डिंग पास',
+              kn: 'boarding pass',
             },
           },
           {
             english: 'gate',
-            translations: { fr: 'porte', es: 'puerta', de: 'Gate', hi: 'गेट' },
+            translations: { fr: 'porte', es: 'puerta', de: 'Gate', hi: 'गेट', kn: 'gate' },
           },
           {
             english: 'terminal',
@@ -53,6 +56,7 @@ export const categories: Category[] = [
               es: 'terminal',
               de: 'Terminal',
               hi: 'टर्मिनल',
+              kn: 'terminal',
             },
           },
         ],
@@ -64,6 +68,7 @@ export const categories: Category[] = [
               es: '¿Dónde está mi puerta?',
               de: 'Wo ist mein Gate?',
               hi: 'मेरा गेट कहाँ है?',
+              kn: 'nanna gate ellide?',
             },
           },
           {
@@ -73,6 +78,7 @@ export const categories: Category[] = [
               es: '¿Mi vuelo está retrasado?',
               de: 'Hat mein Flug Verspätung?',
               hi: 'क्या मेरी फ्लाइट देरी से है?',
+              kn: 'nanna vimaana vilambavaagideve?',
             },
           },
           {
@@ -82,6 +88,7 @@ export const categories: Category[] = [
               es: 'Necesito hacer el check-in',
               de: 'Ich muss einchecken',
               hi: 'मुझे चेक-इन करना है',
+              kn: 'nannu check-in maadbeku',
             },
           },
         ],
@@ -93,11 +100,11 @@ export const categories: Category[] = [
         words: [
           {
             english: 'taxi',
-            translations: { fr: 'taxi', es: 'taxi', de: 'Taxi', hi: 'टैक्सी' },
+            translations: { fr: 'taxi', es: 'taxi', de: 'Taxi', hi: 'टैक्सी', kn: 'taxi' },
           },
           {
             english: 'bus',
-            translations: { fr: 'bus', es: 'autobús', de: 'Bus', hi: 'बस' },
+            translations: { fr: 'bus', es: 'autobús', de: 'Bus', hi: 'बस', kn: 'bus' },
           },
           {
             english: 'bus stop',
@@ -106,6 +113,7 @@ export const categories: Category[] = [
               es: 'parada de autobús',
               de: 'Bushaltestelle',
               hi: 'बस स्टॉप',
+              kn: 'bus nildana',
             },
           },
           {
@@ -115,6 +123,7 @@ export const categories: Category[] = [
               es: 'conductor',
               de: 'Fahrer',
               hi: 'चालक',
+              kn: 'chalaka',
             },
           },
         ],
@@ -126,6 +135,7 @@ export const categories: Category[] = [
               es: '¿Cuánto cuesta el viaje?',
               de: 'Wie viel kostet die Fahrt?',
               hi: 'किराया कितना है?',
+              kn: 'prayana dara eshtu?',
             },
           },
           {
@@ -135,6 +145,7 @@ export const categories: Category[] = [
               es: 'Lléveme a...',
               de: 'Bringen Sie mich bitte zu...',
               hi: 'कृपया मुझे... ले चलें',
+              kn: 'dayavittu nannannu... ge karedoyiri',
             },
           },
         ],
@@ -151,6 +162,7 @@ export const categories: Category[] = [
               es: 'andén',
               de: 'Bahnsteig',
               hi: 'प्लेटफॉर्म',
+              kn: 'platform',
             },
           },
           {
@@ -160,6 +172,7 @@ export const categories: Category[] = [
               es: 'billete',
               de: 'Fahrkarte',
               hi: 'टिकट',
+              kn: 'ticket',
             },
           },
           {
@@ -169,6 +182,7 @@ export const categories: Category[] = [
               es: 'estación',
               de: 'Bahnhof',
               hi: 'स्टेशन',
+              kn: 'station',
             },
           },
           {
@@ -178,6 +192,7 @@ export const categories: Category[] = [
               es: 'asiento',
               de: 'Sitzplatz',
               hi: 'सीट',
+              kn: 'seat',
             },
           },
         ],
@@ -189,6 +204,7 @@ export const categories: Category[] = [
               es: '¿Qué andén para...?',
               de: 'Welcher Bahnsteig für...?',
               hi: 'किस प्लेटफॉर्म से...?',
+              kn: '...ge yava platform?',
             },
           },
           {
@@ -198,6 +214,7 @@ export const categories: Category[] = [
               es: '¿Está ocupado este asiento?',
               de: 'Ist dieser Platz besetzt?',
               hi: 'क्या यह सीट खाली है?',
+              kn: 'ee seat togidedeya?',
             },
           },
         ],
@@ -221,6 +238,7 @@ export const categories: Category[] = [
               es: 'habitación',
               de: 'Zimmer',
               hi: 'कमरा',
+              kn: 'kamaara',
             },
           },
           {
@@ -230,6 +248,7 @@ export const categories: Category[] = [
               es: 'llave',
               de: 'Schlüssel',
               hi: 'चाबी',
+              kn: 'chaabi',
             },
           },
           {
@@ -239,6 +258,7 @@ export const categories: Category[] = [
               es: 'recepción',
               de: 'Rezeption',
               hi: 'रिसेप्शन',
+              kn: 'reception',
             },
           },
           {
@@ -248,6 +268,7 @@ export const categories: Category[] = [
               es: 'ascensor',
               de: 'Aufzug',
               hi: 'लिफ्ट',
+              kn: 'lift',
             },
           },
         ],
@@ -259,6 +280,7 @@ export const categories: Category[] = [
               es: 'Tengo una reserva',
               de: 'Ich habe eine Reservierung',
               hi: 'मेरी बुकिंग है',
+              kn: 'nanna booking ide',
             },
           },
           {
@@ -268,6 +290,7 @@ export const categories: Category[] = [
               es: '¿Está incluido el desayuno?',
               de: 'Ist Frühstück inklusive?',
               hi: 'क्या नाश्ता शामिल है?',
+              kn: 'breakfast serisideya?',
             },
           },
         ],
@@ -284,6 +307,7 @@ export const categories: Category[] = [
               es: 'escritorio',
               de: 'Schreibtisch',
               hi: 'डेस्क',
+              kn: 'desk',
             },
           },
           {
@@ -293,11 +317,12 @@ export const categories: Category[] = [
               es: 'cargador',
               de: 'Ladegerät',
               hi: 'चार्जर',
+              kn: 'charger',
             },
           },
           {
             english: 'wifi',
-            translations: { fr: 'wifi', es: 'wifi', de: 'WLAN', hi: 'वाईफाई' },
+            translations: { fr: 'wifi', es: 'wifi', de: 'WLAN', hi: 'वाईफाई', kn: 'wifi' },
           },
           {
             english: 'meeting room',
@@ -306,6 +331,7 @@ export const categories: Category[] = [
               es: 'sala de reuniones',
               de: 'Konferenzraum',
               hi: 'मीटिंग रूम',
+              kn: 'meeting room',
             },
           },
         ],
@@ -317,6 +343,7 @@ export const categories: Category[] = [
               es: '¿Cuál es la contraseña del wifi?',
               de: 'Wie lautet das WLAN-Passwort?',
               hi: 'वाईफाई पासवर्ड क्या है?',
+              kn: 'wifi password enu?',
             },
           },
           {
@@ -326,6 +353,7 @@ export const categories: Category[] = [
               es: '¿Dónde puedo enchufar mi portátil?',
               de: 'Wo kann ich meinen Laptop anschließen?',
               hi: 'मैं अपना लैपटॉप कहाँ प्लग कर सकता हूं?',
+              kn: 'nanna laptop na elli plug maadabahudu?',
             },
           },
         ],
@@ -349,6 +377,7 @@ export const categories: Category[] = [
               es: 'menú',
               de: 'Speisekarte',
               hi: 'मेन्यू',
+              kn: 'menu',
             },
           },
           {
@@ -358,6 +387,7 @@ export const categories: Category[] = [
               es: 'camarero',
               de: 'Kellner',
               hi: 'वेटर',
+              kn: 'waiter',
             },
           },
           {
@@ -367,11 +397,12 @@ export const categories: Category[] = [
               es: 'cuenta',
               de: 'Rechnung',
               hi: 'बिल',
+              kn: 'bill',
             },
           },
           {
             english: 'table',
-            translations: { fr: 'table', es: 'mesa', de: 'Tisch', hi: 'मेज़' },
+            translations: { fr: 'table', es: 'mesa', de: 'Tisch', hi: 'मेज़', kn: 'mej' },
           },
         ],
         phrases: [
@@ -382,6 +413,7 @@ export const categories: Category[] = [
               es: 'Una mesa para dos, por favor',
               de: 'Einen Tisch für zwei, bitte',
               hi: 'दो लोगों के लिए एक टेबल, कृपया',
+              kn: 'ibbaru janarige ondu table, dayavittu',
             },
           },
           {
@@ -391,6 +423,7 @@ export const categories: Category[] = [
               es: '¿Puedo ver el menú?',
               de: 'Könnte ich die Speisekarte sehen?',
               hi: 'क्या मैं मेन्यू देख सकता हूं?',
+              kn: 'nanu menu nodabahuda?',
             },
           },
         ],
@@ -402,11 +435,11 @@ export const categories: Category[] = [
         words: [
           {
             english: 'coffee',
-            translations: { fr: 'café', es: 'café', de: 'Kaffee', hi: 'कॉफ़ी' },
+            translations: { fr: 'café', es: 'café', de: 'Kaffee', hi: 'कॉफ़ी', kn: 'coffee' },
           },
           {
             english: 'tea',
-            translations: { fr: 'thé', es: 'té', de: 'Tee', hi: 'चाय' },
+            translations: { fr: 'thé', es: 'té', de: 'Tee', hi: 'चाय', kn: 'chaa' },
           },
           {
             english: 'pastry',
@@ -415,6 +448,7 @@ export const categories: Category[] = [
               es: 'pastel',
               de: 'Gebäck',
               hi: 'पेस्ट्री',
+              kn: 'pastry',
             },
           },
           {
@@ -424,6 +458,7 @@ export const categories: Category[] = [
               es: 'azúcar',
               de: 'Zucker',
               hi: 'चीनी',
+              kn: 'sakkare',
             },
           },
         ],
@@ -435,6 +470,7 @@ export const categories: Category[] = [
               es: 'Un café, por favor',
               de: 'Einen Kaffee, bitte',
               hi: 'एक कॉफ़ी, कृपया',
+              kn: 'ondhu coffee, dayavittu',
             },
           },
           {
@@ -444,6 +480,7 @@ export const categories: Category[] = [
               es: '¿Tienen leche de soja?',
               de: 'Haben Sie Sojamilch?',
               hi: 'क्या आपके पास सोया मिल्क है?',
+              kn: 'nimma hattira soy milk ideya?',
             },
           },
         ],
@@ -460,11 +497,12 @@ export const categories: Category[] = [
               es: 'cerveza',
               de: 'Bier',
               hi: 'बीयर',
+              kn: 'beer',
             },
           },
           {
             english: 'wine',
-            translations: { fr: 'vin', es: 'vino', de: 'Wein', hi: 'वाइन' },
+            translations: { fr: 'vin', es: 'vino', de: 'Wein', hi: 'वाइन', kn: 'wine' },
           },
           {
             english: 'menu',
@@ -473,6 +511,7 @@ export const categories: Category[] = [
               es: 'carta',
               de: 'Karte',
               hi: 'मेन्यू',
+              kn: 'menu',
             },
           },
           {
@@ -482,6 +521,7 @@ export const categories: Category[] = [
               es: '¡salud!',
               de: 'Prost!',
               hi: 'चियर्स',
+              kn: 'cheers',
             },
           },
         ],
@@ -493,6 +533,7 @@ export const categories: Category[] = [
               es: '¿Qué cervezas tienen?',
               de: 'Welche Biere haben Sie?',
               hi: 'आपके पास कौन सी बीयर है?',
+              kn: 'nimma hattira yava beer ide?',
             },
           },
           {
@@ -502,6 +543,7 @@ export const categories: Category[] = [
               es: 'Uno más, por favor',
               de: 'Noch eins, bitte',
               hi: 'एक और, कृपया',
+              kn: 'ondhu inna, dayavittu',
             },
           },
         ],
@@ -525,6 +567,7 @@ export const categories: Category[] = [
               es: 'tarjeta de crédito',
               de: 'Kreditkarte',
               hi: 'क्रेडिट कार्ड',
+              kn: 'credit card',
             },
           },
           {
@@ -534,11 +577,12 @@ export const categories: Category[] = [
               es: 'tarjeta de débito',
               de: 'Debitkarte',
               hi: 'डेबिट कार्ड',
+              kn: 'debit card',
             },
           },
           {
             english: 'PIN',
-            translations: { fr: 'code PIN', es: 'PIN', de: 'PIN', hi: 'पिन' },
+            translations: { fr: 'code PIN', es: 'PIN', de: 'PIN', hi: 'पिन', kn: 'PIN' },
           },
           {
             english: 'contactless',
@@ -547,11 +591,12 @@ export const categories: Category[] = [
               es: 'sin contacto',
               de: 'kontaktlos',
               hi: 'कॉन्टैक्टलेस',
+              kn: 'contactless',
             },
           },
           {
             english: 'chip',
-            translations: { fr: 'puce', es: 'chip', de: 'Chip', hi: 'चिप' },
+            translations: { fr: 'puce', es: 'chip', de: 'Chip', hi: 'चिप', kn: 'chip' },
           },
           {
             english: 'swipe',
@@ -560,6 +605,7 @@ export const categories: Category[] = [
               es: 'deslizar',
               de: 'durchziehen',
               hi: 'स्वाइप',
+              kn: 'swipe',
             },
           },
           {
@@ -569,6 +615,7 @@ export const categories: Category[] = [
               es: 'terminal',
               de: 'Terminal',
               hi: 'टर्मिनल',
+              kn: 'terminal',
             },
           },
         ],
@@ -580,6 +627,7 @@ export const categories: Category[] = [
               es: '¿Puedo pagar con tarjeta?',
               de: 'Kann ich mit Karte zahlen?',
               hi: 'क्या मैं कार्ड से भुगतान कर सकता हूं?',
+              kn: 'nanu cardinda kattabahuda?',
             },
           },
           {
@@ -589,6 +637,7 @@ export const categories: Category[] = [
               es: 'La tarjeta fue rechazada',
               de: 'Die Karte wurde abgelehnt',
               hi: 'कार्ड अस्वीकृत हो गया',
+              kn: 'card tiraskruta aagide',
             },
           },
           {
@@ -598,6 +647,7 @@ export const categories: Category[] = [
               es: 'Por favor, ingrese su PIN',
               de: 'Bitte geben Sie Ihre PIN ein',
               hi: 'कृपया अपना पिन डालें',
+              kn: 'dayavittu nimma PIN enter maadi',
             },
           },
           {
@@ -607,6 +657,7 @@ export const categories: Category[] = [
               es: 'Toque su tarjeta aquí',
               de: 'Karte hier auflegen',
               hi: 'अपना कार्ड यहां टैप करें',
+              kn: 'nimma card illi tap maadi',
             },
           },
         ],
@@ -623,6 +674,7 @@ export const categories: Category[] = [
               es: 'efectivo',
               de: 'Bargeld',
               hi: 'नकद',
+              kn: 'nakadu',
             },
           },
           {
@@ -632,6 +684,7 @@ export const categories: Category[] = [
               es: 'cambio',
               de: 'Wechselgeld',
               hi: 'खुले पैसे',
+              kn: 'badali haana',
             },
           },
           {
@@ -641,6 +694,7 @@ export const categories: Category[] = [
               es: 'monedas',
               de: 'Münzen',
               hi: 'सिक्के',
+              kn: 'nane',
             },
           },
           {
@@ -650,6 +704,7 @@ export const categories: Category[] = [
               es: 'billetes',
               de: 'Scheine',
               hi: 'नोट',
+              kn: 'nota',
             },
           },
           {
@@ -659,6 +714,7 @@ export const categories: Category[] = [
               es: 'cartera',
               de: 'Geldbörse',
               hi: 'बटुआ',
+              kn: 'hundi',
             },
           },
         ],
@@ -670,6 +726,7 @@ export const categories: Category[] = [
               es: '¿Tiene cambio?',
               de: 'Haben Sie Wechselgeld?',
               hi: 'क्या आपके पास खुले पैसे हैं?',
+              kn: 'nimma hatthira badali haana ideya?',
             },
           },
           {
@@ -679,6 +736,7 @@ export const categories: Category[] = [
               es: 'Solo tengo efectivo',
               de: 'Ich habe nur Bargeld',
               hi: 'मेरे पास सिर्फ नकद है',
+              kn: 'nanna hatthira kevala nakadu ide',
             },
           },
           {
@@ -688,6 +746,7 @@ export const categories: Category[] = [
               es: '¿Puede cambiar este billete?',
               de: 'Können Sie diesen Schein wechseln?',
               hi: 'क्या आप इस नोट को तोड़ सकते हैं?',
+              kn: 'e nota badali maadbeka?',
             },
           },
         ],
@@ -704,6 +763,7 @@ export const categories: Category[] = [
               es: 'propina',
               de: 'Trinkgeld',
               hi: 'टिप',
+              kn: 'tip',
             },
           },
           {
@@ -713,6 +773,7 @@ export const categories: Category[] = [
               es: 'cargo por servicio',
               de: 'Servicegebühr',
               hi: 'सेवा शुल्क',
+              kn: 'seve shulka',
             },
           },
           {
@@ -722,6 +783,7 @@ export const categories: Category[] = [
               es: 'recargo',
               de: 'Aufschlag',
               hi: 'अतिरिक्त शुल्क',
+              kn: 'athirikta shulka',
             },
           },
           {
@@ -731,6 +793,7 @@ export const categories: Category[] = [
               es: 'impuesto',
               de: 'Steuer',
               hi: 'कर',
+              kn: 'kara',
             },
           },
           {
@@ -740,6 +803,7 @@ export const categories: Category[] = [
               es: 'reembolso',
               de: 'Rückerstattung',
               hi: 'धनवापसी',
+              kn: 'dhanavapasi',
             },
           },
         ],
@@ -751,6 +815,7 @@ export const categories: Category[] = [
               es: '¿Está incluido el servicio?',
               de: 'Ist der Service inklusive?',
               hi: 'क्या सर्विस चार्ज शामिल है?',
+              kn: 'seve serisideya?',
             },
           },
           {
@@ -760,6 +825,7 @@ export const categories: Category[] = [
               es: 'Quisiera un reembolso',
               de: 'Ich möchte eine Rückerstattung',
               hi: 'मुझे रिफंड चाहिए',
+              kn: 'nange refund beku',
             },
           },
           {
@@ -769,6 +835,7 @@ export const categories: Category[] = [
               es: '¿Cuánto es el cargo por servicio?',
               de: 'Wie hoch ist die Servicegebühr?',
               hi: 'सर्विस चार्ज कितना है?',
+              kn: 'seve shulka eshtu?',
             },
           },
         ],

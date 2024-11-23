@@ -20,5 +20,10 @@ export const languages: LanguageOption[] = [
     code: 'hi',
     name: 'Hindi',
     flag: '🇮🇳'
+  },
+  {
+    code: 'kn',
+    name: 'Kannada',
+    flag: '🇮🇳'
   }
 ];
